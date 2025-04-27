@@ -102,7 +102,17 @@ input:focus {
 #button:active {
     transform: scale(0.98);
 }
-
+#deleteData{
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: #ffffff33;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
 
 @keyframes fadeIn {
     from {
@@ -218,7 +228,7 @@ input:focus {
         </div>
         <div>
             <label for="contact">Contact:</label>
-            <input type="tel" name="contact" id="contact" placeholder="Enter Contact Number" required>
+            <input type="number" name="contact" id="contact" placeholder="Enter Contact Number" required>
         </div>
         <div>
             <label for="address" >Address:</label>
